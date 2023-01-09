@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&L v.2.0</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div id="main">
+        <div id="board">
+            <div id="home" class="square"></div>
+            <div id="grid">
+                <div class="rowrev">
+                    <div class="square" id="91"></div>
+                    <div class="square" id="92"></div>
+                    <div class="square" id="93"></div>
+                    <div class="square" id="94"></div>
+                    <div class="square" id="95"></div>
+                    <div class="square" id="96"></div>
+                    <div class="square" id="97"></div>
+                    <div class="square" id="98"></div>
+                    <div class="square" id="99"></div>
+                    <div class="square home" id="100"></div>
+                </div>
+                <div class="row">
+                    <div class="square" id="81"></div>
+                    <div class="square" id="82"></div>
+                    <div class="square" id="83"></div>
+                    <div class="square" id="84"></div>
+                    <div class="square" id="85"></div>
+                    <div class="square" id="86"></div>
+                    <div class="square" id="87"></div>
+                    <div class="square" id="88"></div>
+                    <div class="square" id="89"></div>
+                    <div class="square" id="90"></div>
+                </div>
+                <div class="rowrev">
+                    <div class="square" id="71"></div>
+                    <div class="square" id="72"></div>
+                    <div class="square" id="73"></div>
+                    <div class="square" id="74"></div>
+                    <div class="square" id="75"></div>
+                    <div class="square" id="76"></div>
+                    <div class="square" id="77"></div>
+                    <div class="square" id="78"></div>
+                    <div class="square" id="79"></div>
+                    <div class="square" id="80"></div>
+                </div>
+                <div class="row">
+                    <div class="square" id="61"></div>
+                    <div class="square" id="62"></div>
+                    <div class="square" id="63"></div>
+                    <div class="square" id="64"></div>
+                    <div class="square" id="65"></div>
+                    <div class="square" id="66"></div>
+                    <div class="square" id="67"></div>
+                    <div class="square" id="68"></div>
+                    <div class="square" id="69"></div>
+                    <div class="square" id="70"></div>
+                </div>
+                <div class="rowrev">
+                    <div class="square" id="51"></div>
+                    <div class="square" id="52"></div>
+                    <div class="square" id="53"></div>
+                    <div class="square" id="54"></div>
+                    <div class="square" id="55"></div>
+                    <div class="square" id="56"></div>
+                    <div class="square" id="57"></div>
+                    <div class="square" id="58"></div>
+                    <div class="square" id="59"></div>
+                    <div class="square" id="60"></div>
+                </div>
+                <div class="row">
+                    <div class="square" id="41"></div>
+                    <div class="square" id="42"></div>
+                    <div class="square" id="43"></div>
+                    <div class="square" id="44"></div>
+                    <div class="square" id="45"></div>
+                    <div class="square" id="46"></div>
+                    <div class="square" id="47"></div>
+                    <div class="square" id="48"></div>
+                    <div class="square" id="49"></div>
+                    <div class="square" id="50"></div>
+                </div>
+                <div class="rowrev">
+                    <div class="square" id="31"></div>
+                    <div class="square" id="32"></div>
+                    <div class="square" id="33"></div>
+                    <div class="square" id="34"></div>
+                    <div class="square" id="35"></div>
+                    <div class="square" id="36"></div>
+                    <div class="square" id="37"></div>
+                    <div class="square" id="38"></div>
+                    <div class="square" id="39"></div>
+                    <div class="square" id="40"></div>
+                </div>
+                <div class="row">
+                    <div class="square" id="21"></div>
+                    <div class="square" id="22"></div>
+                    <div class="square" id="23"></div>
+                    <div class="square" id="24"></div>
+                    <div class="square" id="25"></div>
+                    <div class="square" id="26"></div>
+                    <div class="square" id="27"></div>
+                    <div class="square" id="28"></div>
+                    <div class="square" id="29"></div>
+                    <div class="square" id="30"></div>
+                </div>
+                <div class="rowrev">
+                    <div class="square" id="11"></div>
+                    <div class="square" id="12"></div>
+                    <div class="square" id="13"></div>
+                    <div class="square" id="14"></div>
+                    <div class="square" id="15"></div>
+                    <div class="square" id="16"></div>
+                    <div class="square" id="17"></div>
+                    <div class="square" id="18"></div>
+                    <div class="square" id="19"></div>
+                    <div class="square" id="20"></div>
+                </div>
+                <div class="row">
+                    <div class="square hell" id="1"></div>
+                    <div class="square" id="2"></div>
+                    <div class="square" id="3"></div>
+                    <div class="square" id="4"></div>
+                    <div class="square" id="5"></div>
+                    <div class="square" id="6"></div>
+                    <div class="square" id="7"></div>
+                    <div class="square" id="8"></div>
+                    <div class="square" id="9"></div>
+                    <div class="square" id="10"></div>
+                </div>
+            </div>
+            <div id="option">
+                <h1 class="options" id="continue">Continue</h1>
+                <h1 class="options" id="restart">Restart</h1>
+                <h1 class="options" id="instructions">Instructions</h1>
+                <h1 class="options" id="exit">Main menu</h1>
+            </div>
+            <div id="instructionsDiv">
+                <div id="back">
+                    <h1>Back</h1> <br> <br>
+                </div>
+                <div id="ins">
+                    <h3>Gameplay:-</h3>
+                    <p>The players will move their pieces in the incremental order starting at 1, following the numbers on the board. If a player rolls a 4, then the player would move their piece four places. Click on the blackhole to roll the dice. If a player rolls 1 or 6, then he/she gets another chance to roll.</p>
+                    <br>
+                    <h3>Landing on a snake's head:-</h3>
+                    <p>When a player's piece lands on a square that has a snake's head, then the snake swallows the piece and pulls it down to the square where it's tail is located. </p>
+                    <br>
+                    <h3>Landing on the bottom of a ladder:-</h3>
+                    <p>When a player lands on a square that has the base of a ladder, their playing piece immediately climbs up to the square where the top of the ladder is located.</p>
+                    <br>
+                    <h3>Winning the game:-</h3>
+                    <p>The first player to reach the highest number on the board(100), wins the game. To win, the player will need to roll the exact number to get to the last square. If the player rolls a higher number than needed to land exactly on 100, their piece does not move and remains there until their next turn.</p>
+                    <br>
+                    <h3>Super Characters:- (Coming soon😍)</h3>
+                    <p>There'll be some characters like witch, genie in some squares. It'll be a lot more fun while interacting with them, you get chances to move quicker or make your opponents move backwards.But the probability of finding them is very low. Let's see if you can find one😉.</p>
+                </div>
+            </div>
+        </div>
+        <div id="dice">
+            <div id="diceImg">
+                <img src="./Assets/gold dice1.jpg" id="d1" class="img" alt="">
+                <img src="./Assets/gold dice2.jpg" id="d2" class="img" alt="">
+                <img src="./Assets/gold dice3.jpg" id="d3" class="img" alt="">
+                <img src="./Assets/gold dice4.jpg" id="d4" class="img" alt="">
+                <img src="./Assets/gold dice5.jpg" id="d5" class="img" alt="">
+                <img src="./Assets/gold dice6.jpg" id="d6" class="img" alt="">
+            </div>
+            <div id="first2">
+                <div class="apFlex" id="player1">
+                    <div class="arrowBox"><img id="p1a" class="arrow" src="./Assets/Chevron Up.png" alt=""></div>
+                    <h1 id="p1NameDis" class="arrowSpace"><span id="pnUpdate0"></span></h1>
+                </div>
+                <div class="apFlex" id="player2">
+                    <div class="arrowBox"><img id="p2a" class="arrow" src="./Assets/Chevron Up.png" alt=""></div>
+                    <h1 id="p2NameDis" class="arrowSpace"><span id="pnUpdate1"></span></h1>
+                </div>
+            </div>
+            <div id="last2">
+                <div class="apFlex" id="player3">
+                    <div class="arrowBox"><img id="p3a" class="arrow" src="./Assets/Chevron Up.png" alt=""></div>
+                    <h1 id="p3NameDis" class="arrowSpace"><span id="pnUpdate2"></span></h1>
+                </div>
+                <div class="apFlex" id="player4">
+                    <div class="arrowBox"><img id="p4a" class="arrow" src="./Assets/Chevron Up.png" alt=""></div>
+                    <h1 id="p4NameDis" class="arrowSpace"><span id="pnUpdate3"></span></h1>
+                </div>
+            </div>
+            <div id="menu">
+                <img src="./Assets/Menu Rounded.png" alt="">
+            </div>
+        </div>
+        <div class="bottom" id="witch">
+            <div class="pic">
+                <img src="./Assets/witch.png" alt="">
+            </div>
+            <div class="offers">
+                <div><h3>Hocus pocus. You've found me <span id="fill"></span>. Use this spell to move a player backwards by 30 steps ☠️.</h3></div>
+                <img src="./Assets/spell.png" alt="">
+                <div id="choice">
+                    <div class="choices"><span id="v1"></span></div>
+                    <div class="choices"><span id="v2"></span></div>
+                    <div class="choices"><span id="v3"></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom" id="genie">
+            <div class="pic">
+                <img src="./Assets/genie.png" alt="">
+            </div>
+            <div class="offers">
+                <div><h3>Thank you so much for releasing me Master <span id="fill"></span>. I'll help you win the game quicker 😉. How many steps do you want to move?</h3></div>
+                <div id="choice">
+                    <div class="choices"><span id="c1"></span></div>
+                    <div class="choices"><span id="c2"></span></div>
+                    <div class="choices"><span id="c3"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>

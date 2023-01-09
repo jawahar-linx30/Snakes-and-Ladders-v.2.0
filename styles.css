@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+
+*{
+    margin: 0%;
+}
+
+body {
+    background-image:url(./Assets/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#login {
+    position: relative;
+    height: 728px;
+    width: 1164.67px;
+    background-image: url(./Assets/Login\ img.png);
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px 2px black;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#buttons {
+    position: absolute;
+    height: 430px;
+    width: 500px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#r2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    height: 103px;
+}
+
+#r3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.circle {
+    height: 86px;
+    width: 85px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 33px;
+    margin-top: 5px;
+}
+
+.circle:hover {
+    cursor: pointer;
+    background-color: orangered;
+    opacity: 0.3;
+}
+
+#stbutton {
+    height: 80px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+#stbutton:hover {
+    cursor: pointer;
+    background-color: rgb(3, 3, 3);
+}
+
+#circle1 {
+    margin-top: 17px;
+}
+
+#psUpdate {
+    font-family: 'Arbutus', cursive;
+    font-size: 40px;
+    margin: 0%;
+    color: rgba(23, 111, 99, 1);
+    text-shadow: 2px 2px 10px rgba(135, 40, 40, 0.5);;
+}
+
+.playerDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.box {
+    width: 300px;
+    height: 25px;
+}
+
+#single {
+    display: none;
+    flex-direction: column;
+    opacity: 0.9;
+    width: 50%;
+    height: 728px;
+    background-color: black;
+    border-radius: 0% 3% 3% 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+#double {
+    display: none;
+    flex-direction: column;
+    opacity: 0.9;
+    width: 50%;
+    height: 728px;
+    background-color: black;
+    border-radius: 0% 3% 3% 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+#triple {
+    display: none;
+    flex-direction: column;
+    opacity: 0.9;
+    width: 50%;
+    height: 728px;
+    background-color: black;
+    border-radius: 0% 3% 3% 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+#quadraple {
+    display: none;
+    flex-direction: column;
+    opacity: 0.9;
+    width: 50%;
+    height: 728px;
+    background-color: black;
+    border-radius: 0% 3% 3% 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 {
+    color: rgba(255, 61, 0, 1);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    color: rgba(0, 255, 240, 1);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.p3 {
+    color: rgba(250, 255, 0, 1);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.p4 {
+    color: rgba(255, 0, 184, 1);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.p1box {
+    box-shadow: 1px 1px 10px 2px rgba(255, 61, 0, 1);
+}
+
+.p2box {
+    box-shadow: 1px 1px 10px 2px rgba(0, 255, 240, 1);
+}
+
+.p3box {
+    box-shadow: 1px 1px 10px 2px rgba(250, 255, 0, 1);
+}
+
+.p4box {
+    box-shadow: 1px 1px 10px 2px rgba(255, 0, 184, 1);
+}
+
+#temporary {
+    color: white;
+    font-size: 30px;
+}
